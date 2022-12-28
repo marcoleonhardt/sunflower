@@ -4,7 +4,7 @@ Theme URI: https://sunflower-theme.de
 Author: Tom Rose
 Author URI: https://tom-rose.de
 Description: Theme for german Green party
-Version: 1.7.1
+Version: 1.8.1
 Tested up to: 5.4
 Requires PHP: 5.6
 License: GNU General Public License v2 or later
@@ -117,6 +117,7 @@ $fa-font-path : 'assets/vndr/@fortawesome/fontawesome-free/webfonts';
 
 /* Custom
 --------------------------------------------- */
+@import "_themes";
 @import "_forkawesome";
 @import "_typography";
 @import "_generic";
@@ -133,7 +134,6 @@ $fa-font-path : 'assets/vndr/@fortawesome/fontawesome-free/webfonts';
 @import "_single";
 @import "_sidebar";
 @import "_comments";
-@import "_contrast";
 
 @import "wp-blocks/_blocks";
 @import "wp-blocks/cover";
@@ -149,3 +149,5 @@ $fa-font-path : 'assets/vndr/@fortawesome/fontawesome-free/webfonts';
 @import "wp-blocks/pullquote";
 @import "wp-blocks/styled-layout";
 @import "wp-blocks/table";
+@import "_accordion";
+

@@ -10,6 +10,9 @@ a.event-card{
 
         .event-archive-meta{
             color: $primary;
+             @include themed() {
+                font-family: t('headingFont');
+            }
         }
 
         &:hover{
@@ -20,7 +23,9 @@ a.event-card{
         }
 
         .date{
-            font-family: PTSans;
+            @include themed() {
+                font-family: t('standardFont');
+            }
             font-weight: bold;
             font-size: 25px;
         }
